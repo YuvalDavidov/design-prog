@@ -1,0 +1,40 @@
+.middle-section {
+    position: relative;
+    z-index: 101;
+    background-color: #012f34;
+    height: 684px;
+
+    &-main {
+        position: relative;
+        margin: 140px 165px;
+        height: 404px;
+
+
+        & .text {
+            position: relative;
+            padding-top: 58px;
+            height: 202px;
+            color: white;
+            font-size: 3rem;
+            width: 445px;
+
+            & .top-line {
+                position: absolute;
+                top: 0;
+                width: 50px;
+                border: 2px solid #F67E7E;
+            }
+        }
+
+        & .info {
+            padding: 0;
+            position: absolute;
+            right: 0;
+            width: 540px;
+            height: 346px;
+            list-style: none;
+
+        }
+
+    }
+}

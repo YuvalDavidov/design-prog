@@ -1,0 +1,158 @@
+.upper {
+    position: relative;
+    z-index: 100;
+    background-color: #014E56;
+    min-height: 700px;
+
+    &-main {
+        margin-top: 129px;
+        display: flex;
+        width: 1110px;
+        height: max-content;
+        justify-content: space-between;
+
+        * {
+            color: white;
+        }
+
+        & .big {
+            font-weight: 700;
+            font-size: 6.25rem;
+            max-width: 600px;
+
+            & span {
+                color: #F67E7E;
+            }
+        }
+
+        & .text {
+            position: relative;
+            max-width: 386px;
+            font-weight: 600;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 10px;
+
+            .line {
+                top: 0;
+                position: absolute;
+                width: 50px;
+                border: 2px solid #79C8C7;
+            }
+        }
+
+
+
+    }
+
+    & .middle-img {
+        position: absolute;
+        left: -270px;
+        top: 250px;
+        width: 200px;
+        height: 200px;
+
+        & .oval-1 {
+            position: relative;
+            z-index: 50;
+            width: 200px;
+            height: 200px;
+            background-color: #012F34;
+            border-radius: 50%;
+
+            .hole {
+                position: absolute;
+                top: calc(35%);
+                left: calc(33%);
+                background-color: #014E56;
+                width: 66px;
+                height: 66px;
+                border-radius: 50%;
+
+            }
+        }
+
+        & .square {
+            z-index: 40;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #79C8C7;
+        }
+    }
+
+    & .buttom-img {
+        position: absolute;
+        width: 358px;
+        height: 200px;
+
+        right: 165px;
+        top: 600px;
+
+        & .lines {
+            position: relative;
+            z-index: 100;
+
+            & .line {
+                margin-bottom: 4px;
+                width: 100px;
+                border: 2px solid #79C8C7;
+            }
+        }
+
+        & .square {
+            z-index: 51;
+            top: 0;
+            right: 0;
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            background-color: #79C8C7;
+        }
+
+        & .oval-1 {
+            z-index: 50;
+            position: absolute;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            background-color: #2C6269;
+            border-radius: 50%;
+        }
+
+        & .oval-2 {
+            z-index: 50;
+            background-color: #F67E7E;
+            position: absolute;
+            top: 0;
+            right: 24.5px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+
+            .hole {
+                position: absolute;
+                top: calc(35%);
+                left: calc(33%);
+                background-color: #1c7672;
+                width: 66px;
+                height: 66px;
+                border-radius: 50%;
+
+            }
+        }
+
+        & .oval-3 {
+            z-index: 40;
+            background: #012F34;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
+}
