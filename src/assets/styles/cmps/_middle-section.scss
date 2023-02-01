@@ -1,7 +1,7 @@
 .middle-section {
     position: relative;
     z-index: 101;
-    background-color: #012f34;
+    background-color: $clr7;
     height: 684px;
     overflow: hidden;
 
@@ -14,8 +14,8 @@
             position: relative;
             padding-top: 58px;
             height: 202px;
-            color: white;
-            font-weight: 700;
+            color: $clr3;
+            font-family: Livvic-bold;
             font-size: 3rem;
             width: 445px;
             line-height: 48px;
@@ -24,7 +24,7 @@
                 position: absolute;
                 top: 0;
                 width: 50px;
-                border: 2px solid #F67E7E;
+                border: 2px solid $clr2;
             }
         }
 
@@ -47,14 +47,14 @@
 
                 & div {
                     margin-bottom: 16px;
-                    font-size: 1.125rem;
-                    color: #F67E7E;
+                    font-family: Livvic-bold;
+                    color: $clr2;
                 }
 
                 & p {
                     margin: 0 0 32px 0;
                     font-size: 0.938rem;
-                    color: white;
+                    color: $clr3;
                 }
             }
 
