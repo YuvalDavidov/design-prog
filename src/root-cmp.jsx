@@ -2,9 +2,9 @@ import React from 'react'
 
 import './assets/styles/main.scss';
 
-import { UpperSection } from './view/upper-section.jsx';
-import { MiddleSection } from './view/middle-section.jsx';
-import { BottemSection } from './view/bottem-section';
+import { UpperSection } from './cmps/upper-section.jsx';
+import { MiddleSection } from './cmps/middle-section.jsx';
+import { BottemSection } from './cmps/bottem-section';
 
 
 
@@ -17,6 +17,7 @@ function App() {
       <MiddleSection />
 
       <BottemSection />
+
 
     </section>
   );
