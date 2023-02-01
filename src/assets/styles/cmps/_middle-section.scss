@@ -3,20 +3,22 @@
     z-index: 101;
     background-color: #012f34;
     height: 684px;
+    overflow: hidden;
 
     &-main {
         position: relative;
-        margin: 140px 165px;
+        margin: 140px 0;
         height: 404px;
-
 
         & .text {
             position: relative;
             padding-top: 58px;
             height: 202px;
             color: white;
+            font-weight: 700;
             font-size: 3rem;
             width: 445px;
+            line-height: 48px;
 
             & .top-line {
                 position: absolute;
@@ -27,14 +29,44 @@
         }
 
         & .info {
-            padding: 0;
             position: absolute;
             right: 0;
+            top: 70px;
+            margin: 0;
+            padding: 0;
             width: 540px;
-            height: 346px;
             list-style: none;
+
+            & li {
+                position: relative;
+
+                & img {
+                    position: absolute;
+                    left: -80px;
+                }
+
+                & div {
+                    margin-bottom: 16px;
+                    font-size: 1.125rem;
+                    color: #F67E7E;
+                }
+
+                & p {
+                    margin: 0 0 32px 0;
+                    font-size: 0.938rem;
+                    color: white;
+                }
+            }
 
         }
 
+
+
+    }
+
+    & .middle-img {
+        position: absolute;
+        right: -100px;
+        bottom: 0;
     }
 }

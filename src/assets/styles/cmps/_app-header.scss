@@ -11,6 +11,7 @@
         justify-content: space-between;
 
         & .nav-bar {
+            font-family: Livvic;
             width: 140px;
             display: flex;
             justify-content: space-between;
@@ -32,6 +33,8 @@
 
 
     & button {
+        font-family: Livvic;
+        font-weight: 600;
         padding: 9px 32px;
         font-size: 1rem;
         border: 2px solid white;

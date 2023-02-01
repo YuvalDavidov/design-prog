@@ -4,6 +4,7 @@ import './assets/styles/main.scss';
 
 import { UpperSection } from './view/upper-section.jsx';
 import { MiddleSection } from './view/middle-section.jsx';
+import { BottemSection } from './view/bottem-section';
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
       <MiddleSection />
 
-
+      <BottemSection />
 
     </section>
   );

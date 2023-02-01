@@ -1,5 +1,6 @@
 import { AppHeader } from "../cmps/app-header";
-
+import middle from '../assets/imgs/bg-pattern-home-1.svg'
+import bottem from '../assets/imgs/bg-pattern-home-2.svg'
 
 
 export function UpperSection() {
@@ -20,35 +21,10 @@ export function UpperSection() {
                 </div>
             </section>
 
-            <div className="middle-img">
-                <div className="oval-1">
-                    <div className="hole"></div>
-                </div>
-                <div className="square"></div>
-                <div className="squares">
 
-                </div>
-            </div>
+            <img className="middle-img" src={middle} alt="" />
 
-            <div className="buttom-img">
-                <div className="lines">
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
-                </div>
-
-                <div className="square"></div>
-                <div className="oval-1"></div>
-                <div className="oval-2">
-                    <div className="hole"></div>
-                </div>
-                <div className="oval-3">
-                    <div className="hole"></div>
-                </div>
-            </div>
+            <img className="buttom-img" src={bottem} alt="" />
 
         </section>
     )

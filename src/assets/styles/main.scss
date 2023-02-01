@@ -1,7 +1,13 @@
+// Setup
+@import "setup/vars";
+@import "setup/typography";
+
 // Basics
 @import "basics/layout";
+@import "basics/base";
 
 // Components
 @import "cmps/app-header";
 @import "cmps/upper-section";
 @import "cmps/middle-section";
+@import "cmps/bottem-section";
